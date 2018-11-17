@@ -23,6 +23,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "react-redux": "^5.1.1",
     "redux": "^4.0.1"
   }
 }
