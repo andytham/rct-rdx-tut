@@ -13,8 +13,14 @@ import App from "./components/App.js";
 const rootEl = document.getElementById('root');
 
 
-render(<App />, rootEl);
+// render(<App />, rootEl);
 
+render(
+	<Provider store={store}>
+		<App/>
+	</Provider>, 
+	rootEl
+)
 if (module.hot) {
 	module.hot.accept();
 }
